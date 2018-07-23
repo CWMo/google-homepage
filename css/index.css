@@ -1,0 +1,94 @@
+.body  *
+  {
+    margin-left: auto;  /* centre positioning for block elements*/
+    margin-right: auto;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+  
+.top.navigation
+  {
+    height: 90px;
+  }
+ img.logo
+  {
+    display: block; /* img is inline by default, making it block for centering */
+  }
+
+.button
+  {
+    text-align: center;
+  }
+
+.spaceholder
+  {
+    height: 18px;
+  }
+
+button
+  {
+    height: 36px;
+  }
+
+ul
+  {
+    list-style-type: none; /* Removes the bullets in a navigation bar */
+    overflow: hidden;
+  }
+
+.top.navigation li
+  {
+     float: right;
+     padding: 8px;
+     display: block;
+     margin-top: 20px;
+     font-size: 12px;
+  }
+
+#AppsIcon, .signIn
+  {
+    position: relative; /* adjust vertical position to align with other plain text */
+    top: -9px;
+   }
+
+.signIn
+  {
+     color: #fff;
+     background: dodgerblue;
+     height: 30px;
+     font-weight: bold;
+  }
+
+.searchText
+  {
+     display: block;
+     width: 559px;
+     height:34px;
+  }
+
+  .navigation.bottom {
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    height: 40px;
+    width: 100%;
+  }
+
+  .bottom.navigation li
+    {
+       display: block;
+       padding: 12px;
+       float: left;
+    }
+
+  .bottom.navigation li.right-align {
+      float: right;
+    }
